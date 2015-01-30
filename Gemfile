@@ -41,6 +41,9 @@ end
 
 gem 'rails_12factor', group: :production
 
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.3.3'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
