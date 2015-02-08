@@ -6,6 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-1000.times do 
-  Post.create(title: "testtitle_"+(0...8).map { (65 + rand(26)).chr }.join )
+100.times do 
+  Post.create(title: (0...8).map { (65 + rand(26)).chr }.join, name: 'heinz' )
 end
